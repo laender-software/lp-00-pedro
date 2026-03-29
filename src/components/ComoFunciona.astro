@@ -23,16 +23,16 @@ const steps = [
 ];
 ---
 
-<section id="como-funciona" class="py-20 md:py-28 bg-white reveal">
+<section id="como-funciona" class="py-20 md:py-28 bg-bg-alt reveal">
   <div class="mx-auto max-w-4xl px-6">
     <span class="text-sm font-semibold uppercase tracking-widest text-accent">Processo</span>
     <h2 class="mt-4 font-serif text-3xl md:text-4xl font-bold text-text leading-tight">
       Do briefing ao site no ar. 5 dias úteis.
     </h2>
 
-    <div class="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 stagger">
+    <div class="mt-14 grid grid-cols-1 sm:grid-cols-2 gap-6 stagger">
       {steps.map((step) => (
-        <div class="bg-bg-alt rounded-2xl p-6 border border-border card-lift reveal">
+        <div class="bg-white rounded-2xl p-6 border border-border card-lift reveal">
           <span class="font-serif text-4xl font-bold text-brand opacity-20">{step.number}</span>
           <h3 class="mt-2 text-base font-semibold text-text leading-snug">{step.title}</h3>
           <p class="mt-2 text-muted leading-relaxed text-sm">{step.text}</p>
