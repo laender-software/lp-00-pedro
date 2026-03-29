@@ -50,7 +50,7 @@ const { title, description } = Astro.props;
         { threshold: 0.1 }
       );
 
-      document.querySelectorAll('.reveal, .reveal-up, .reveal-scale').forEach((el) => {
+      document.querySelectorAll('.reveal').forEach((el) => {
         observer.observe(el);
       });
 
